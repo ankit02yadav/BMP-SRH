@@ -9,6 +9,15 @@ import json
 # html css 
 from http.server import HTTPServer,BaseHTTPRequestHandler
 from urllib import parse
+import sqlite3
+
+def run_sql_file():
+    conn = sqlite3.connect("bmp.db")
+    with open("bmp.sql", "r") as f:
+        conn.executescript(f.read())
+    conn.close()
+
+run_sql_file()
 
 ###########################  DATABASE  #################################
 
