@@ -24,7 +24,7 @@ Database (MySQL / SQLite / etc.)
 ## 🧑‍💼 Admin Dashboard
 ![Admin Panel](assets/admin-panel.png)
 ![Admin Item Control](assets/admin-item-control.png)
-![All Orders](assets/all orders.png)
+![All Orders](assets/all-orders.png)
 ![All Guest](assets/all-guest.png)
 ## 👤 Customer Dashboard
 ![Menu](assets/menu.png)
